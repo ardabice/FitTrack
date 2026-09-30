@@ -1,32 +1,93 @@
-# React + TypeScript + Vite
+# FitTrack
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+FitTrack is a workout and nutrition tracking web application built with React and TypeScript.
 
-Currently, two official plugins are available:
+The application allows users to log workouts, track meals and macronutrients, search foods using the USDA FoodData Central API, and calculate an estimated daily calorie target based on personal fitness goals.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+### Workout Tracking
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Create, edit and delete workouts
+- Strength and cardio workout types
+- Add multiple exercises to strength workouts
+- Track sets, repetitions, weight and duration
+- Track cardio distance and duration
+- Search and filter workout history
+- View detailed workout information
 
-## Expanding the Oxlint configuration
+### Nutrition Tracking
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- Add and delete meals
+- View nutrition information by date
+- Track calories, protein, carbohydrates and fat
+- Daily calorie progress
+- Meal history
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+### Food Search
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+FitTrack integrates with the USDA FoodData Central API.
+
+Users can:
+
+- Search for foods
+- Select food database results
+- Enter serving size in grams
+- Automatically calculate calories, protein, carbohydrates and fat
+
+### Fitness Goal
+
+Users can enter:
+
+- Current weight
+- Target weight
+- Height
+- Age
+- Sex
+- Activity level
+
+FitTrack then estimates:
+
+- Maintenance calories
+- Goal type:
+  - Weight Loss
+  - Weight Gain
+  - Maintain Weight
+- Recommended daily calorie target
+
+The calculated calorie target is stored locally in the browser and is also used on the Dashboard.
+
+## Dashboard
+
+The Dashboard provides an overview of:
+
+- Total workouts
+- Training time
+- Exercises logged
+- Training volume
+- Recent workouts
+- Daily calorie intake
+- Daily calorie target
+- Protein, carbohydrate and fat intake
+
+## Technologies
+
+- React
+- TypeScript
+- React Router
+- Vite
+- HTML5
+- CSS3
+- REST API
+- JSON Server
+- USDA FoodData Central API
+- Local Storage
+- Git
+- GitHub
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ardabice/FitTrack.git
