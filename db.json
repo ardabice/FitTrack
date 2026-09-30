@@ -1,0 +1,134 @@
+{
+  "workouts": [
+    {
+      "id": "1",
+      "name": "Push Day",
+      "date": "2026-09-25",
+      "type": "Strength",
+      "duration": 65,
+      "notes": "Strong session. Bench press felt good.",
+      "exercises": [
+        {
+          "id": "ex1",
+          "name": "Bench Press",
+          "sets": 3,
+          "reps": 12,
+          "weight": 60
+        },
+        {
+          "id": "ex2",
+          "name": "Incline Dumbbell Press",
+          "sets": 3,
+          "reps": 10,
+          "weight": 20
+        },
+        {
+          "id": "ex3",
+          "name": "Shoulder Press",
+          "sets": 4,
+          "reps": 8,
+          "weight": 30
+        },
+        {
+          "id": "ex4",
+          "name": "Triceps Pushdown",
+          "sets": 3,
+          "reps": 12,
+          "weight": 25
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Morning Run",
+      "date": "2026-09-24",
+      "type": "Cardio",
+      "duration": 35,
+      "distanceKm": 5,
+      "notes": "Easy 5 km recovery run.",
+      "exercises": []
+    },
+    {
+      "id": "3",
+      "name": "Leg Day",
+      "date": "2026-09-22",
+      "type": "Strength",
+      "duration": 70,
+      "notes": "Increased squat weight today.",
+      "exercises": [
+        {
+          "id": "ex5",
+          "name": "Squat",
+          "sets": 4,
+          "reps": 8,
+          "weight": 80
+        },
+        {
+          "id": "ex6",
+          "name": "Leg Press",
+          "sets": 3,
+          "reps": 12,
+          "weight": 120
+        },
+        {
+          "id": "ex7",
+          "name": "Romanian Deadlift",
+          "sets": 3,
+          "reps": 10,
+          "weight": 60
+        },
+        {
+          "id": "ex8",
+          "name": "Leg Curl",
+          "sets": 3,
+          "reps": 12,
+          "weight": 35
+        }
+      ]
+    }
+  ],
+  "meals": [
+    {
+      "id": "1",
+      "name": "Oatmeal Bowl",
+      "mealType": "Breakfast",
+      "date": "2026-09-27",
+      "calories": 420,
+      "protein": 24,
+      "carbs": 58,
+      "fat": 12
+    },
+    {
+      "id": "2",
+      "name": "Chicken & Rice",
+      "mealType": "Lunch",
+      "date": "2026-09-27",
+      "calories": 650,
+      "protein": 52,
+      "carbs": 72,
+      "fat": 16
+    },
+    {
+      "id": "3",
+      "name": "Greek Yogurt",
+      "mealType": "Snack",
+      "date": "2026-09-27",
+      "calories": 190,
+      "protein": 18,
+      "carbs": 20,
+      "fat": 4
+    },
+    {
+      "name": "BANANA",
+      "mealType": "Snack",
+      "date": "2026-09-27",
+      "grams": 100,
+      "calories": 312,
+      "protein": 12.5,
+      "carbs": 40.6,
+      "fat": 6.3,
+      "id": "rXbwR2Ijixk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
